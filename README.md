@@ -1,23 +1,25 @@
-# 🎮 CodeAlpha Hangman Game
+# 🎮 Advanced Hangman Game
 
-An interactive graphical Hangman game developed using Python and Pygame CE as part of the CodeAlpha Python Programming Internship.
+An interactive desktop-based Hangman game developed using Python and Pygame CE, featuring modern graphics, animations, sound effects, and player statistics.
 
 ## 📌 Project Overview
 
-This project is a desktop-based word guessing game featuring an interactive interface, multiple game states, sound effects, and player statistics.
+Advanced Hangman is a graphical word-guessing game designed to provide an engaging gaming experience through interactive gameplay, multiple difficulty levels, and visual effects.
 
-Players must guess the hidden word before running out of attempts.
+Players must identify the hidden word by guessing letters before running out of attempts.
 
 ## ✨ Features
 
-- Interactive graphical user interface
-- Multiple word categories and difficulty levels
+- Modern graphical user interface
+- Multiple word categories
+- Different difficulty levels
 - Animated visual effects
-- On-screen and physical keyboard support
-- Sound effects with mute/unmute control
+- Interactive on-screen keyboard
+- Physical keyboard support
+- Built-in sound effects with mute/unmute option
 - Score and streak tracking
-- Persistent game statistics
-- Win and loss screens
+- Persistent player statistics
+- Win and loss animations
 - Restart and menu navigation
 
 ## 🛠️ Technologies Used
@@ -28,7 +30,7 @@ Players must guess the hidden word before running out of attempts.
 
 ## ⚙️ Installation
 
-Install Python and then install Pygame CE:
+Install Python and Pygame CE:
 
 ```bash
 py -m pip install pygame-ce
@@ -42,13 +44,13 @@ Clone the repository:
 git clone https://github.com/bhuvanls/CodeAlpha_Hangman.git
 ```
 
-Open the project folder:
+Navigate to the project directory:
 
 ```bash
 cd CodeAlpha_Hangman
 ```
 
-Run the game:
+Run the application:
 
 ```bash
 py hangman.py
@@ -56,7 +58,7 @@ py hangman.py
 
 ## 🎮 Controls
 
-- Mouse: Navigate menus and use the on-screen keyboard
+- Mouse: Navigate menus and select letters
 - Keyboard: Enter letter guesses
 - M: Toggle sound on/off
 
@@ -72,12 +74,12 @@ CodeAlpha_Hangman/
 └── .gitignore
 ```
 
-## 🎯 Internship
-
-Developed as part of the CodeAlpha Python Programming Internship.
-
-## 👨‍💻 Author
+## 👨‍💻 Developer
 
 **Bhuvan LS**
 
 GitHub: [@bhuvanls](https://github.com/bhuvanls)
+
+## 📜 License
+
+This project is licensed under the MIT License.
